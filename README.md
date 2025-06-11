@@ -2,6 +2,9 @@
 
 An AI-powered command-line agent that helps users discover and summarize recent research papers from arXiv.
 
+![Application Image 01](docs/scout1.png)
+![Application Image 02](docs/scout2.png)
+
 ## Features: 
 
 * **Paper Search:** Query the public arXiv API to find recent research papers on any topic.
@@ -26,7 +29,7 @@ Follow these steps to set up and run the Scientific Paper Scout on your local ma
 First, clone this repository to your local machine:
 
 ```bash
-git clone [https://github.com/your-username/scientific-paper-scout.git](https://github.com/your-username/scientific-paper-scout.git)
+git clone [https://github.com/GitGautamHub/scientific-paper-scout.git](https://github.com/your-username/scientific-paper-scout.git)
 cd scientific-paper-scout
 ```
 ### 2. Set up Virtual Environment
@@ -157,7 +160,8 @@ scientific-paper-scout/
 ├── utils/
 │   ├── __init__.py
 │   └── logger.py           # Utility for logging tool calls
-├── requirements.txt        # Python package dependencies
+├── requirements.txt     # Python package dependencies
+├── docs                  # contains application image
 └── README.md               # This README file
 ```
 
