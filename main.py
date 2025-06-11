@@ -7,7 +7,7 @@ from llm_client import LLMClient
 from config import PAPER_SEARCH_SERVER_URL, PDF_SUMMARIZE_SERVER_URL
 from utils.logger import log_tool_call, print_streaming_response
 
-# initialize LLM Client
+# Initialize LLM Client
 llm = LLMClient()
 
 # maintain conversation history
@@ -222,8 +222,8 @@ def run_chat_agent():
 
         except json.JSONDecodeError as e:
             print(f"\nAn error occurred while parsing JSON from LLM response (or tool arguments): {e}")
-            if accumulated_assistant_tool_calls_dict:
-                print(f"Problematic accumulated_tool_calls_for_execution: {json.dumps(accumulated_tool_calls_for_execution, indent=2)}")
+            if accumulated_assistant_tool_calls_dict: # Correct variable name used in condition
+                print(f"Problematic accumulated_tool_calls: {json.dumps(accumulated_assistant_tool_calls_dict, indent=2)}")
             conversation_history.pop()
             print("Please try again.")
         except requests.exceptions.RequestException as e:
