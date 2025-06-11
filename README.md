@@ -3,6 +3,7 @@
 An AI-powered command-line agent that helps users discover and summarize recent research papers from arXiv.
 
 ![Application Image 01](docs/scout1.png)
+---
 ![Application Image 02](docs/scout2.png)
 
 ## Features: 
