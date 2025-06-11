@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+requests
+PyPDF2
+python-dotenv
+openai          # For OpenAI LLM
+anthropic       # For Anthropic LLM (optional, if you want to support it)
+google-generativeai # For Google Gemini LLM (optional, if you want to support it)
